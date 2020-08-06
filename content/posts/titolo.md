@@ -1,6 +1,6 @@
 ---
 language: it
-title: Titolo
+title: Post in italiano
 subtitle: Subtitolo
 category:
   - About Awake
