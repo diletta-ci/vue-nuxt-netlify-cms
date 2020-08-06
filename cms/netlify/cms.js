@@ -1,6 +1,7 @@
 import Post from './post'
 import Category from './category'
 import LifeCycleHooks from './hooks/lifeCycle'
+
 class CMS {
   constructor(axios = false) {
     this.name = 'Netlify'
@@ -10,4 +11,5 @@ class CMS {
     this.lifeCycleHooks = LifeCycleHooks
   }
 }
+
 export default CMS

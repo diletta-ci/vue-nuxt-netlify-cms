@@ -8,16 +8,34 @@ site_url: https://awake-template.netlify.com
 logo_url: https://awake-template.netlify.com/logo-frames/logo-f0.svg
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
-    label: "Posts" # Used in the UI
+    label: "Posts in italian" # Used in the UI
     preview_path: "{{slug}}"
+    filter: {field: "language", value: "it"}
     folder: "content/posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., title.md
     fields: # The fields for each document, usually in front matter
+      - {label: "Lingua", name: "language", widget: "select", options: ["it", "es"]}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {label: "Category", name: "category", widget: "relation", collection: "categories", searchFields: ["name"], valueField: "name", multiple: true}
-      - {label: "Author", name: "author", widget: "string", default: "Daniel Kelly"}
+      - {label: "Author", name: "author", widget: "string", default: "Tora Eden"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "featureImage", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+    label: "Posts en español" # Used in the UI
+    preview_path: "{{slug}}"
+    filter: {field: "language", value: "es"}
+    folder: "content/posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Idioma", name: "language", widget: "select", options: ["it", "es"]}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Category", name: "category", widget: "relation", collection: "categories", searchFields: ["name"], valueField: "name", multiple: true}
+      - {label: "Author", name: "author", widget: "string", default: "Tora Eden"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "featureImage", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
