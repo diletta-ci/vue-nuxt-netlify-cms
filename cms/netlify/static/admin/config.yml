@@ -9,7 +9,6 @@ logo_url: https://happy-lamarr-954c6f.netlify.app/logo-frames/logo-f0.svg
 collections:
   - name: "italian_posts" # Used in routes, e.g., /admin/collections/blog
     label: "Posts in italian" # Used in the UI
-    format: "json"
     preview_path: "{{slug}}"
     filter: {field: "language", value: "it"}
     folder: "content/posts" # The path to the folder where the documents are stored
@@ -26,7 +25,6 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "spanish_posts" # Used in routes, e.g., /admin/collections/blog
     label: "Posts en español" # Used in the UI
-    format: "json"
     preview_path: "{{slug}}"
     filter: {field: "language", value: "es"}
     folder: "content/posts" # The path to the folder where the documents are stored
