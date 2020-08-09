@@ -50,7 +50,8 @@ export default {
       'underSubtitle',
       'author',
       'category',
-      'slug'
+      'slug',
+      'language'
     ]),
     date() {
       return getFormattedDate(this.$store.state.date)
