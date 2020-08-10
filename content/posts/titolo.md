@@ -1,7 +1,7 @@
 ---
 language: it
 title: Post in italiano
-subtitle: Subtitolo
+subtitle: Sottotitolo
 category:
   - About Awake
 author: Tora Eden
@@ -9,3 +9,18 @@ date: 2020-08-06T17:17:43.308Z
 featureImage: /uploads/about-hero.jpg
 ---
 Il mio post in italiano
+
+| Product 1 | Product 2 | Product 3 |
+| :-------- | :-------: | --------: |
+| Cell Contents| More Stuff | And Again |
+| You Can Also | Put Pipes In | Like this \| |
+| [Vedi prezzo](https://www.example.com) | [![Vedi prezzo!!!](https://www.netlify.com/img/deploy/button.svg)](https://example.com) | Other column |
+{table__comparative}
+
+|  Product 1  |  Product 2  |  Product 3  |
+|:-----------:|:-----------:|:-----------:|
+| Contenuto   | Contenuto   | Contenuto   |
+| Vedi prezzo | Vedi prezzo | Vedi prezzo | {table__comparative}
+
+### Some h3 here {test}
+
