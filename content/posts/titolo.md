@@ -17,10 +17,11 @@ Il mio post in italiano
 | [Vedi prezzo](https://www.example.com) | [![Vedi prezzo!!!](https://www.netlify.com/img/deploy/button.svg)](https://example.com) | Other column |
 
 {table__review}
+
 |  Product 1  |  Product 2  |  Product 3  |
 |:-----------:|:-----------:|:-----------:|
 | Contenuto   | Contenuto   | Contenuto   |
-| Vedi prezzo | Vedi prezzo | Vedi prezzo | {table__comparative}
+| Vedi prezzo | Vedi prezzo | Vedi prezzo |{table__end} 
 
 ### Some h3 here {test}
 
