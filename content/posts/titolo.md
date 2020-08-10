@@ -16,7 +16,7 @@ Il mio post in italiano
 | You Can Also | Put Pipes In | Like this \| |
 | [Vedi prezzo](https://www.example.com) | [![Vedi prezzo!!!](https://www.netlify.com/img/deploy/button.svg)](https://example.com) | Other column |
 
-
+{table__review}
 |  Product 1  |  Product 2  |  Product 3  |
 |:-----------:|:-----------:|:-----------:|
 | Contenuto   | Contenuto   | Contenuto   |
