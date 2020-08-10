@@ -16,12 +16,11 @@ Il mio post in italiano
 | You Can Also | Put Pipes In | Like this \| |
 | [Vedi prezzo](https://www.example.com) | [![Vedi prezzo!!!](https://www.netlify.com/img/deploy/button.svg)](https://example.com) | Other column |
 
-{table__review}
 
-|  Product 1  |  Product 2  |  Product 3  |
+|  Product 1 {table__review}  |  Product 2  |  Product 3  |
 |:-----------:|:-----------:|:-----------:|
 | Contenuto   | Contenuto   | Contenuto   |
-| Vedi prezzo | Vedi prezzo | Vedi prezzo |{table__end} 
+| Vedi prezzo | Vedi prezzo | Vedi prezzo |
 
-### Some h3 here {test}
+### Some h3 here {class_test}
 
