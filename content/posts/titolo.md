@@ -15,10 +15,12 @@ Il mio post in italiano
 | Cell Contents| More Stuff | And Again |
 | You Can Also | Put Pipes In | Like this \| |
 | [Vedi prezzo](https://www.example.com) | [![Vedi prezzo!!!](https://www.netlify.com/img/deploy/button.svg)](https://example.com) | Other column |
+{table__comparative}
 
 |  Product 1  |  Product 2  |  Product 3  |
 |:-----------:|:-----------:|:-----------:|
 | Contenuto   | Contenuto   | Contenuto   |
-| Vedi prezzo | Vedi prezzo | Vedi prezzo |
+| Vedi prezzo | Vedi prezzo | Vedi prezzo | {table__comparative}
 
-### Some h3 here
+### Some h3 here {test}
+
