@@ -56,6 +56,11 @@ export default {
           hid: 'og:site_name',
           name: 'og:site_name',
           content: this.$siteConfig.siteName
+        },
+        {
+          hid: 'noindex',
+          name: 'robots',
+          content: 'noindex'
         }
       ]
     }
