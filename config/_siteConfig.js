@@ -9,28 +9,23 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Model to Real',
-  tagline: 'A Nuxt.js site with Netlify CMS',
+  siteName: 'Site Name',
+  tagline: 'Site tagline',
   featureImage: '/uploads/home-hero.jpg',
-  logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
+  logo: '', // '/logo.svg'
   googleAnalytics: {
     on: false,
     id: process.env.GOOGLE_ANALYTICS_ID
   },
   mainMenu: [
-    {
-      name: 'About',
-      link: '/about'
-    },
-    {
-      name: 'Contact',
-      link: '/contact'
-    },
-    {
-      name: 'Categories',
-      link: '/categories',
-      target: '_blank'
-    }
+    /**
+     * Main Menu example
+      {
+        name: 'Categories',
+        link: '/categories',
+        target: '_blank'
+      }
+    */
   ],
   hero: {
     theme: 'dark' // options: mist, light, dark
@@ -52,7 +47,7 @@ export default {
   disqus: {
     on: true,
     loadingStrategy: 'button', // Options: onload, lazy, button
-    siteShortName: 'model-to-real'
+    siteShortName: 'site-short-name'
   },
 
   // Newsletter Subscribe
@@ -63,7 +58,7 @@ export default {
     // Can be the form action on a mail chimp form, a hubspot form,
     // or any other url you want to post the form data to
     mailchimp: {
-      on: true,
+      on: false,
       formAction: 'https://example.com'
     },
     custom: {
