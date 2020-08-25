@@ -1,5 +1,5 @@
 ---
-name: Stampanti 3D
+name: Guide comparative
 image: /uploads/3d-printer-zmorph.jpg
-description: Tutti i post relativi alle stampanti 3D
+description: Tutte le guide comparative
 ---
